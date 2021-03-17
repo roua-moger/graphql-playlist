@@ -7,7 +7,7 @@ import Booklist from './components/BookList';
 
 //apollo client setup
 const client = new ApolloClient({
-  uri: 'https://localhost:4000/graphql',
+  uri: 'http://localhost:4000/graphql',
   cache: new InMemoryCache()
 });
 
